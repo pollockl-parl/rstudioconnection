@@ -3,8 +3,7 @@ APPG_TEST_URL <-"https://publications.parliament.uk/pa/cm/cmallparty/241120/cont
 # messages
 ERROR_CRAWLER <- glue::glue(
   "The APPG register website blocks crawlers from off the Parliamentary Estate.
-  Download the HTML of the page manually and feed that to get_appg_manual().
-  Enter ?get_appg_manual() for details.
+  Trying read_html_live - this is inherently more fragile than static parsing.
   "
   )
 # include
